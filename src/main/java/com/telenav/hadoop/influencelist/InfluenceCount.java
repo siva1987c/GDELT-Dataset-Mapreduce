@@ -15,7 +15,9 @@ public class InfluenceCount {
         JobClient client = new JobClient();
         JobConf conf = new JobConf(InfluenceCount.class);
         
-        //        conf.set(name, value);
+        /**
+         * Just some text to test git commits
+         */
         
   
         conf.setOutputKeyClass(Text.class);
