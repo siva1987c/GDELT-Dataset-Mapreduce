@@ -2,5 +2,5 @@ com\telenav\hadoop\countryevents\EventCountReducer.class
 com\telenav\hadoop\wordcount\WordCountReducer.class
 com\telenav\hadoop\countryevents\EventCount.class
 com\telenav\hadoop\wordcount\WordCount.class
-com\telenav\hadoop\countryevents\EventCountMapper.class
 com\telenav\hadoop\wordcount\WordCountMapper.class
+com\telenav\hadoop\countryevents\EventCountMapper.class

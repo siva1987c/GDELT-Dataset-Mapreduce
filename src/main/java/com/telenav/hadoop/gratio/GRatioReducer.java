@@ -3,7 +3,6 @@ package com.telenav.hadoop.gratio;
 
 import java.io.IOException;
 import java.util.Iterator;
-import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.MapReduceBase;
 import org.apache.hadoop.mapred.OutputCollector;
