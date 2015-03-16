@@ -8,7 +8,13 @@ import org.apache.hadoop.mapred.JobClient;
 import org.apache.hadoop.mapred.JobConf;
 import com.telenav.hadoop.utils.PrintableMapWritable;
 
-
+/**
+ * Job: Number of protests ( event code :14 ) in each country, grouped by month
+ * Alternate implementation using a PrintableMapWritable ( extended MapWritable with toString() )
+ * 
+ * @author TChira
+ * @version $Revision$
+ */
 public class MonthProtestsAlt {
 
     public static void main(String[] args){

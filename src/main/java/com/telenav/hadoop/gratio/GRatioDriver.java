@@ -1,3 +1,8 @@
+/**
+ * Task: Check internal and external Goldstein score for each country
+ * Internal - in event, if actor1 country code = actor2 country code, add goldstein to country internal total
+ * External - if country codes differ, add goldstein to both countries' external total
+ */
 package com.telenav.hadoop.gratio;
 
 import org.apache.hadoop.fs.Path;
@@ -8,11 +13,11 @@ import org.apache.hadoop.mapred.FileOutputFormat;
 import org.apache.hadoop.mapred.JobClient;
 import org.apache.hadoop.mapred.JobConf;
 
-public class GRatioJob {
+public class GRatioDriver {
     
     public static void main(String[] args){
         JobClient client=new JobClient();
-        JobConf conf=new JobConf(GRatioJob.class);
+        JobConf conf=new JobConf(GRatioDriver.class);
      // specify output types
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(FloatWritable.class);

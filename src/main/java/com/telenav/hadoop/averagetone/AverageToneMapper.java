@@ -14,7 +14,13 @@ import org.apache.hadoop.mapred.Mapper;
 import org.apache.hadoop.mapred.OutputCollector;
 import org.apache.hadoop.mapred.Reporter;
 
-
+/**
+ * Parse input line, chop the source link (field 57) to get just the main site
+ * Output collects site and the article tone ( float : field 34 )
+ * 
+ * @author TChira
+ * @version $Revision$
+ */
 public class AverageToneMapper extends MapReduceBase implements
         Mapper<LongWritable, Text, Text, FloatWritable> {
 

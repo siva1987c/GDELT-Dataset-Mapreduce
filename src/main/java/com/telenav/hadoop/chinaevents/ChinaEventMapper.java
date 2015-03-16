@@ -1,3 +1,7 @@
+/**
+ * Task: Count events in China, grouped by week in year
+ * By default,the dataset only contains events in china, so event location hasn't been checked
+ */
 package com.telenav.hadoop.chinaevents;
 
 
@@ -17,7 +21,12 @@ import org.apache.hadoop.mapred.Mapper;
 import org.apache.hadoop.mapred.OutputCollector;
 import org.apache.hadoop.mapred.Reporter;
 
-
+/**
+ * Parses the input line, gets the event date as Java Date
+ * Collects pairs of <"Year/Week in Year" , 1 >
+ * @author TChira
+ * @version $Revision$
+ */
 public class ChinaEventMapper extends MapReduceBase implements
         Mapper<LongWritable, Text, Text, IntWritable> {
 

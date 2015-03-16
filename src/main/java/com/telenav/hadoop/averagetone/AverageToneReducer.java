@@ -9,7 +9,14 @@ import org.apache.hadoop.mapred.Reducer;
 import org.apache.hadoop.mapred.Reporter;
 import java.util.Iterator;
 
+/**
+ * Get source site as key and the article tones (floats) as values
+ * Collect <source, positive / negative> pairs, positive if toneaverage>0, else negative
+ * tone average= sum of all article tones for that source / number of articles
 
+ * @author TChira
+ * @version $Revision$
+ */
 public class AverageToneReducer extends MapReduceBase implements
         Reducer<Text, FloatWritable, Text, Text> {
 

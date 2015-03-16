@@ -8,6 +8,12 @@ import org.apache.hadoop.mapred.FileOutputFormat;
 import org.apache.hadoop.mapred.JobClient;
 import org.apache.hadoop.mapred.JobConf;
 
+/**
+ * Task: count how many events happened in each country
+ * 
+ * @author TChira
+ * @version $Revision$
+ */
 public class EventCount {
     
     public static void main(String[] args){

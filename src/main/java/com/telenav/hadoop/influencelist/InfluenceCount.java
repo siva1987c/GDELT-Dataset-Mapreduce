@@ -1,3 +1,6 @@
+/** 
+ * Task : for each country (country1), get the list of countries (country 2) influenced by it
+ */
 package com.telenav.hadoop.influencelist;
 
 import org.apache.hadoop.fs.Path;

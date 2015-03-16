@@ -8,7 +8,12 @@ import org.apache.hadoop.mapred.JobClient;
 import org.apache.hadoop.mapred.JobConf;
 import com.telenav.hadoop.utils.PrintableMapWritable;
 
-
+/**
+ * For each country, display the most frequent event class ( 4 event classes )
+ * 
+ * @author TChira
+ * @version $Revision$
+ */
 public class QuadCountryDriver {
 
     public static void main(String[] args){

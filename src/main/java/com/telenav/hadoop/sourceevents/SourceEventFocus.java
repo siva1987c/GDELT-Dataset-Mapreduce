@@ -10,8 +10,11 @@ import org.apache.hadoop.mapred.JobConf;
 
 
 /**
- * Job: List the number of protests in every country , grouped by month (or
- * year/month)
+ * For each news source, find the most focused event type, by checking the total numSources for each event code
+ * Uses 2 linked jobs: 
+ * 1. parse the CSV file, outputs pairs of <"Country:event code", numSources>
+ * 2. gets the input from 1, compute the maximum numSources for each country
+ *    output: <"country, event code: <ecode>", <number of sources> > pairs
  * 
  * @author TChira
  * @version $Revision$
