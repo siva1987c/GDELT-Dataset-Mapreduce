@@ -12,7 +12,7 @@ import org.apache.hadoop.mapred.Reporter;
 public class QuadCountryMapper extends MapReduceBase implements
         Mapper<LongWritable, Text, Text, Text> {
 
-        public void map(LongWritable key,Text value,OutputCollector output,Reporter reporter){
+        public void map(LongWritable key,Text value,OutputCollector<Text,Text> output,Reporter reporter){
             try {
                 String fields[]=value.toString().split("\\t");
                 output.collect(new Text(fields[51]), new Text(fields[29]));

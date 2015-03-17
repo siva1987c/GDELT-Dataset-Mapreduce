@@ -1,6 +1,5 @@
 package com.telenav.hadoop.sourceevents;
 
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.MapReduceBase;
@@ -22,7 +21,7 @@ public class SEFMaxMapper extends MapReduceBase implements
             String source = fields[0];
             String eCode = fields[1];
             int count=Integer.parseInt(fields[2]);
-            output.collect(new Text(source), new Text(eCode + ":" + fields[1]));
+            output.collect(new Text(source), new Text(eCode + ":" + count));
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

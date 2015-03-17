@@ -1,12 +1,13 @@
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\countryevents\EventCountMapper.java
+C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\militaryleaders\MilitaryUseReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\countryevents\EventCount.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\influencelist\InfluenceMapper.java
-C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\gratio\GRatioJob.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\monthprotestsmap\MonthProtestsAlt.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\quadcountry\QuadCountryReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\monthprotests\MonthProtestsMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\wordcount\WordCountReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\sourceevents\SourceEventFocus.java
+C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\militaryleaders\MilitaryUseCount.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\gratio\GRatioReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\monthprotests\MonthProtestsReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\quadcountry\QuadCountryMapper.java
@@ -25,10 +26,12 @@ C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\monthp
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\averagetone\AverageTone.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\averagetone\AverageToneMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\sourceevents\SEFMaxReducer.java
+C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\militaryleaders\MilitaryUseMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\gratio\GRatioMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\chinaevents\ChinaEventMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\countryevents\EventCountReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\averagetone\AverageToneReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\monthprotestsmap\MonthProtestsAltMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\chinaevents\ChinaEvents.java
+C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\gratio\GRatioDriver.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\utils\MRArrayWritable.java
