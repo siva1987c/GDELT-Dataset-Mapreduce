@@ -1,4 +1,5 @@
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\countryevents\EventCountMapper.java
+C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\leaflettest\JobLeafletTest.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\militaryleaders\MilitaryUseReducer.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\countryevents\EventCount.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\influencelist\InfluenceMapper.java
@@ -30,7 +31,9 @@ C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\milita
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\gratio\GRatioMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\chinaevents\ChinaEventMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\countryevents\EventCountReducer.java
+C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\leaflettest\MapperLeafletTest.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\averagetone\AverageToneReducer.java
+C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\leaflettest\ReducerLeafletTest.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\monthprotestsmap\MonthProtestsAltMapper.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\chinaevents\ChinaEvents.java
 C:\Users\Internship1\workspace\MapReduce\src\main\java\com\telenav\hadoop\gratio\GRatioDriver.java
